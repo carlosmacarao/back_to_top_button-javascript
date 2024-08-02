@@ -3,7 +3,7 @@ window.onscroll = function() { scrollFunction(); };
 
 function scrollFunction() {
 
-    var mybutton = document.getElementById("back-to-top");
+    let mybutton = document.getElementById("back-to-top");
 
     // Se o usuário rolar mais de 20px para baixo da parte superior do documento, mostre o botão
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
